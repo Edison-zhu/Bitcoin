@@ -1,0 +1,1705 @@
+.global-trades[data-v-93e72252] {
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.global-trades ul[data-v-93e72252] {
+    height: 44px;
+    line-height: 44px
+}
+
+.global-trades ul li[data-v-93e72252] {
+    width: 300px;
+    height: 44px;
+    float: left;
+    padding: 0 16px;
+    border-bottom: 1px solid;
+    border-radius: 2px 2px 0 0
+}
+
+html.hb-night .global-trades ul li[data-v-93e72252] {
+    color: #d2d6ec
+}
+
+html.hb-day .global-trades ul li[data-v-93e72252] {
+    color: #1c242c
+}
+
+html.hb-dark .global-trades ul li[data-v-93e72252] {
+    color: #d5def2
+}
+
+html.hb-night .global-trades ul li[data-v-93e72252] {
+    border-color: #111217
+}
+
+html.hb-day .global-trades ul li[data-v-93e72252] {
+    border-color: #e6ecf2
+}
+
+html.hb-dark .global-trades ul li[data-v-93e72252] {
+    border-color: #111114
+}
+
+html.hb-night .global-trades ul li[data-v-93e72252] {
+    background-color: #131625
+}
+
+html.hb-day .global-trades ul li[data-v-93e72252] {
+    background-color: #f2f6fa
+}
+
+html.hb-dark .global-trades ul li[data-v-93e72252] {
+    background-color: #191a1f
+}
+
+.global-trades ul li[data-v-93e72252]:first-child {
+    margin-right: 5px
+}
+
+.global-trades>div[data-v-93e72252] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: calc(100% - 44px);
+    border-radius: 0 0 2px 2px
+}
+
+.global-trades>div .market-trades[data-v-93e72252],.global-trades>div .order-books[data-v-93e72252] {
+    border-radius: 0 0 2px 2px;
+    width: 300px;
+    height: 100%
+}
+
+html.hb-night .global-trades>div .market-trades[data-v-93e72252],html.hb-night .global-trades>div .order-books[data-v-93e72252] {
+    background-color: #171b2b
+}
+
+html.hb-day .global-trades>div .market-trades[data-v-93e72252],html.hb-day .global-trades>div .order-books[data-v-93e72252] {
+    background-color: #fff
+}
+
+html.hb-dark .global-trades>div .market-trades[data-v-93e72252],html.hb-dark .global-trades>div .order-books[data-v-93e72252] {
+    background-color: #1f2126
+}
+
+.global-trades>div .order-books[data-v-93e72252] {
+    margin-right: 5px;
+    overflow: visible
+}
+
+@media screen and (max-width: 1559px) {
+    .global-trades ul[data-v-93e72252] {
+        border-bottom:1px solid;
+        border-radius: 2px 2px 0 0
+    }
+
+    html.hb-night .global-trades ul[data-v-93e72252] {
+        background-color: #131625
+    }
+
+    html.hb-day .global-trades ul[data-v-93e72252] {
+        background-color: #f2f6fa
+    }
+
+    html.hb-dark .global-trades ul[data-v-93e72252] {
+        background-color: #191a1f
+    }
+
+    html.hb-night .global-trades ul[data-v-93e72252] {
+        border-color: #111217
+    }
+
+    html.hb-day .global-trades ul[data-v-93e72252] {
+        border-color: #e6ecf2
+    }
+
+    html.hb-dark .global-trades ul[data-v-93e72252] {
+        border-color: #111114
+    }
+
+    .global-trades ul li[data-v-93e72252] {
+        width: auto;
+        float: left;
+        height: 34px;
+        line-height: 34px;
+        padding: 0 16px;
+        border-top: 2px solid;
+        border-bottom: 0;
+        cursor: pointer
+    }
+
+    html.hb-night .global-trades ul li[data-v-93e72252] {
+        border-top-color: #131625
+    }
+
+    html.hb-day .global-trades ul li[data-v-93e72252] {
+        border-top-color: #f2f6fa
+    }
+
+    html.hb-dark .global-trades ul li[data-v-93e72252] {
+        border-top-color: #191a1f
+    }
+
+    .global-trades ul li[data-v-93e72252]:first-child {
+        margin-right: 0;
+        border-radius: 2px 0 0 0
+    }
+
+    .global-trades ul li[data-v-93e72252]:last-child {
+        border-radius: 0
+    }
+
+    .global-trades ul li.cur[data-v-93e72252] {
+        height: 44px
+    }
+
+    html.hb-night .global-trades ul li.cur[data-v-93e72252] {
+        background-color: #171b2b
+    }
+
+    html.hb-day .global-trades ul li.cur[data-v-93e72252] {
+        background-color: #fff
+    }
+
+    html.hb-dark .global-trades ul li.cur[data-v-93e72252] {
+        background-color: #1f2126
+    }
+
+    html.hb-dark .global-trades ul li.cur[data-v-93e72252],html.hb-day .global-trades ul li.cur[data-v-93e72252],html.hb-night .global-trades ul li.cur[data-v-93e72252] {
+        border-top-color: #357ce1
+    }
+
+    .global-trades>div[data-v-93e72252] {
+        display: block
+    }
+
+    html.hb-night .global-trades>div[data-v-93e72252] {
+        background-color: #171b2b
+    }
+
+    html.hb-day .global-trades>div[data-v-93e72252] {
+        background-color: #fff
+    }
+
+    html.hb-dark .global-trades>div[data-v-93e72252] {
+        background-color: #1f2126
+    }
+
+    .global-trades>div .market-trades[data-v-93e72252],.global-trades>div .order-books[data-v-93e72252] {
+        display: none
+    }
+
+    .global-trades>div .market-trades.cur[data-v-93e72252],.global-trades>div .order-books.cur[data-v-93e72252] {
+        display: block
+    }
+}
+
+.estimate[data-v-e02d4a8c] {
+    height: 44px;
+    min-height: 44px;
+    color: rgba(63,66,84,.4);
+    border-bottom: 1px solid;
+    border-radius: 2px 2px 0 0;
+    padding: 6px 16px;
+    font-size: 12px
+}
+
+html.hb-night .estimate[data-v-e02d4a8c] {
+    background-color: #131625
+}
+
+html.hb-day .estimate[data-v-e02d4a8c] {
+    background-color: #f2f6fa
+}
+
+html.hb-dark .estimate[data-v-e02d4a8c] {
+    background-color: #191a1f
+}
+
+html.hb-night .estimate[data-v-e02d4a8c] {
+    border-color: #111217
+}
+
+html.hb-day .estimate[data-v-e02d4a8c] {
+    border-color: #e6ecf2
+}
+
+html.hb-dark .estimate[data-v-e02d4a8c] {
+    border-color: #111114
+}
+
+html.hb-night .estimate[data-v-e02d4a8c] {
+    color: #61688a
+}
+
+html.hb-day .estimate[data-v-e02d4a8c] {
+    color: #9ca9b5
+}
+
+html.hb-dark .estimate[data-v-e02d4a8c] {
+    color: #697080
+}
+
+html.hb-night .estimate .color-t1[data-v-e02d4a8c] {
+    color: #d2d6ec
+}
+
+html.hb-day .estimate .color-t1[data-v-e02d4a8c] {
+    color: #1c242c
+}
+
+html.hb-dark .estimate .color-t1[data-v-e02d4a8c] {
+    color: #d5def2
+}
+
+.estimate .color-t1[data-v-e02d4a8c]:first-child {
+    margin-right: 3px
+}
+
+.estimate .about[data-v-e02d4a8c] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.estimate .about-balance[data-v-e02d4a8c],.estimate .about-estimate[data-v-e02d4a8c] {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.estimate .about-balance[data-v-e02d4a8c] {
+    max-width: 92px
+}
+
+.estimate .about-estimate[data-v-e02d4a8c] {
+    max-width: 120px;
+    margin: 0 3px
+}
+
+.estimate .text[data-v-e02d4a8c] {
+    height: 12px;
+    line-height: 12px;
+    margin-bottom: 6px;
+    position: relative;
+    top: 5px
+}
+
+.estimate .text span[data-v-e02d4a8c] {
+    position: relative;
+    top: -5px
+}
+
+.estimate i.eyes[data-v-e02d4a8c] {
+    font-size: 16px;
+    margin-left: 8px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    width: 16px;
+    height: 12px;
+    cursor: pointer
+}
+
+.estimate i.eyes.eye_visible[data-v-e02d4a8c] {
+    background-image: url(https://file.huobiasia.vip/global/zh-cn/static/img/b76d731.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0
+}
+
+.estimate i.eyes.eye_invisible[data-v-e02d4a8c] {
+    background-image: url(https://file.huobiasia.vip/global/zh-cn/static/img/87eaef9.svg);
+    background-repeat: no-repeat;
+    background-position: 0 1px
+}
+
+.hb-night .estimate i.eyes.eye_visible[data-v-e02d4a8c] {
+    background-position: -34px 0
+}
+
+.hb-night .estimate i.eyes.eye_invisible[data-v-e02d4a8c] {
+    background-position: -34px 1px
+}
+
+.hb-dark .estimate i.eyes.eye_visible[data-v-e02d4a8c] {
+    background-position: -67px 0
+}
+
+.hb-dark .estimate i.eyes.eye_invisible[data-v-e02d4a8c] {
+    background-position: -66px 1px
+}
+
+.globalMod .mod_head:after,.globalOrders .order-container:after,.globalOrders .order-history:after,.globalOrders .pagination-box:after,.globalOrders dl dd:after,.globalOrders dl dt:after {
+    display: block;
+    clear: both;
+    content: ""
+}
+
+.globalMod {
+    width: 100%
+}
+
+.globalMod .mod_head {
+    height: 36px;
+    padding: 0 16px;
+    line-height: 36px;
+    border-bottom: 1px solid;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+html.hb-night .globalMod .mod_head {
+    background-color: #131625
+}
+
+html.hb-day .globalMod .mod_head {
+    background-color: #f2f6fa
+}
+
+html.hb-dark .globalMod .mod_head {
+    background-color: #191a1f
+}
+
+html.hb-night .globalMod .mod_head {
+    border-color: #111217
+}
+
+html.hb-day .globalMod .mod_head {
+    border-color: #e6ecf2
+}
+
+html.hb-dark .globalMod .mod_head {
+    border-color: #111114
+}
+
+.globalMod .mod_head>span {
+    font-weight: 400;
+    font-size: 14px
+}
+
+html.hb-night .globalMod .mod_head>span {
+    color: #d2d6ec
+}
+
+html.hb-day .globalMod .mod_head>span {
+    color: #1c242c
+}
+
+html.hb-dark .globalMod .mod_head>span {
+    color: #d5def2
+}
+
+.globalMod .mod_head>em {
+    font-size: 12px
+}
+
+html.hb-night .globalMod .mod_head>em {
+    color: #61688a
+}
+
+html.hb-day .globalMod .mod_head>em {
+    color: #9ca9b5
+}
+
+html.hb-dark .globalMod .mod_head>em {
+    color: #697080
+}
+
+.globalMod .mod_head .extra {
+    float: right
+}
+
+.globalMod .mod_head .extra .cancel_all {
+    color: #357ce1;
+    font-size: 12px
+}
+
+.globalMod .mod_head .extra .cancel_all:hover {
+    color: #6199e8
+}
+
+.globalMod .mod_head .extra .cancel_all:disabled {
+    cursor: not-allowed
+}
+
+html.hb-night .globalMod .mod_head .extra .cancel_all:disabled {
+    color: #61688a
+}
+
+html.hb-day .globalMod .mod_head .extra .cancel_all:disabled {
+    color: #9ca9b5
+}
+
+html.hb-dark .globalMod .mod_head .extra .cancel_all:disabled {
+    color: #697080
+}
+
+.globalMod .mod_head .extra .head_link {
+    font-size: 12px;
+    margin-left: 16px
+}
+
+.globalMod .mod_head .hide_btn label {
+    cursor: pointer
+}
+
+.globalMod .mod_head .hide_btn label span {
+    font-size: 12px;
+    margin-left: 6px
+}
+
+html.hb-night .globalMod .mod_head .hide_btn label span {
+    color: #b0b8db
+}
+
+html.hb-day .globalMod .mod_head .hide_btn label span {
+    color: #596a7a
+}
+
+html.hb-dark .globalMod .mod_head .hide_btn label span {
+    color: #a7b7c7
+}
+
+.globalMod .mod_head .hide_btn input {
+    vertical-align: top;
+    margin-top: 12px
+}
+
+.globalMod .mod_head .hide_btn input[type=checkbox] {
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    -webkit-appearance: none;
+    border: 1px solid;
+    border-radius: 3px;
+    outline: none;
+    background-size: 14px 14px
+}
+
+html.hb-night .globalMod .mod_head .hide_btn input[type=checkbox] {
+    border-color: #2e3753
+}
+
+html.hb-day .globalMod .mod_head .hide_btn input[type=checkbox] {
+    border-color: #dfe2e7
+}
+
+html.hb-dark .globalMod .mod_head .hide_btn input[type=checkbox] {
+    border-color: #2e3753
+}
+
+html.hb-night .globalMod .mod_head .hide_btn input[type=checkbox] {
+    background-color: rgba(19,22,37,.2)
+}
+
+html.hb-day .globalMod .mod_head .hide_btn input[type=checkbox] {
+    background-color: rgba(242,246,250,.2)
+}
+
+html.hb-dark .globalMod .mod_head .hide_btn input[type=checkbox] {
+    background-color: rgba(25,26,31,.2)
+}
+
+.globalMod .mod_head .hide_btn input[type=checkbox].checked {
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMi4wNSAzLjA2MkwuOTMzIDQuMTc2bDIuNjI5IDIuNjI3YS43ODkuNzg5IDAgMCAwIDEuMTE1IDBMOS45MzQgMS41NSA4LjgyLjQzNCA0LjEyIDUuMTMxbC0yLjA3LTIuMDd6IiBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48L3N2Zz4=) no-repeat 50%
+}
+
+html.hb-dark .globalMod .mod_head .hide_btn input[type=checkbox].checked,html.hb-day .globalMod .mod_head .hide_btn input[type=checkbox].checked,html.hb-night .globalMod .mod_head .hide_btn input[type=checkbox].checked {
+    background-color: #357ce1
+}
+
+.globalMod .mod_body {
+    width: 100%
+}
+
+.globalOrders .hb_icon_tip:hover {
+    color: #357ce1
+}
+
+.globalOrders dl {
+    padding: 0 16px
+}
+
+html.hb-night .globalOrders dl {
+    background-color: #171b2b
+}
+
+html.hb-day .globalOrders dl {
+    background-color: #fff
+}
+
+html.hb-dark .globalOrders dl {
+    background-color: #1f2126
+}
+
+.globalOrders dl dd,.globalOrders dl dt {
+    font-size: 12px
+}
+
+.globalOrders dl dd span,.globalOrders dl dt span {
+    display: block;
+    float: left;
+    white-space: nowrap;
+    text-align: right
+}
+
+.globalOrders dl dd span.state i,.globalOrders dl dt span.state i {
+    position: relative;
+    cursor: pointer;
+    display: inline-block
+}
+
+.globalOrders dl dd span.state i .tips,.globalOrders dl dt span.state i .tips {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    padding: 8px;
+    border-radius: 2px;
+    width: auto;
+    line-height: 18px;
+    font-size: 12px;
+    border-radius: 4px;
+    left: 0;
+    bottom: calc(100% + 12px);
+    -webkit-filter: drop-shadow(0 2px 10px rgba(0,0,0,.15));
+    filter: drop-shadow(0 2px 10px rgba(0,0,0,.15))
+}
+
+html.hb-night .globalOrders dl dd span.state i .tips,html.hb-night .globalOrders dl dt span.state i .tips {
+    color: #000
+}
+
+html.hb-day .globalOrders dl dd span.state i .tips,html.hb-day .globalOrders dl dt span.state i .tips {
+    color: #fff
+}
+
+html.hb-dark .globalOrders dl dd span.state i .tips,html.hb-dark .globalOrders dl dt span.state i .tips {
+    color: #000
+}
+
+html.hb-night .globalOrders dl dd span.state i .tips,html.hb-night .globalOrders dl dt span.state i .tips {
+    background-color: #fff
+}
+
+html.hb-day .globalOrders dl dd span.state i .tips,html.hb-day .globalOrders dl dt span.state i .tips {
+    background-color: #263241
+}
+
+html.hb-dark .globalOrders dl dd span.state i .tips,html.hb-dark .globalOrders dl dt span.state i .tips {
+    background-color: #fff
+}
+
+.globalOrders dl dd span.state i .tips:before,.globalOrders dl dt span.state i .tips:before {
+    width: 0;
+    height: 0;
+    position: absolute;
+    content: "";
+    left: 22px;
+    bottom: -6px;
+    border-top: 6px solid;
+    border-left: 6px dashed transparent;
+    border-right: 6px dashed transparent
+}
+
+html.hb-night .globalOrders dl dd span.state i .tips:before,html.hb-night .globalOrders dl dt span.state i .tips:before {
+    border-top-color: #fff
+}
+
+html.hb-day .globalOrders dl dd span.state i .tips:before,html.hb-day .globalOrders dl dt span.state i .tips:before {
+    border-top-color: #263241
+}
+
+html.hb-dark .globalOrders dl dd span.state i .tips:before,html.hb-dark .globalOrders dl dt span.state i .tips:before {
+    border-top-color: #fff
+}
+
+.globalOrders dl dd span.state i.hov .tips,.globalOrders dl dd span.state i:hover .tips,.globalOrders dl dt span.state i.hov .tips,.globalOrders dl dt span.state i:hover .tips {
+    display: block
+}
+
+.globalOrders dl dd span.state i .tips,.globalOrders dl dt span.state i .tips {
+    right: -40px;
+    left: auto;
+    bottom: 40px;
+    white-space: normal;
+    text-align: left;
+    padding: 8px 16px;
+    width: 248px;
+    background-color: #fff!important;
+    color: #596a7a!important
+}
+
+.globalOrders dl dd span.state i .tips:before,.globalOrders dl dt span.state i .tips:before {
+    left: auto;
+    right: 40px;
+    border-top-color: #fff!important
+}
+
+.globalOrders dl dt {
+    height: 32px;
+    line-height: 32px
+}
+
+html.hb-night .globalOrders dl dt {
+    color: #61688a
+}
+
+html.hb-day .globalOrders dl dt {
+    color: #9ca9b5
+}
+
+html.hb-dark .globalOrders dl dt {
+    color: #697080
+}
+
+.globalOrders dl dd {
+    line-height: 44px;
+    border-bottom: 1px solid
+}
+
+html.hb-night .globalOrders dl dd {
+    border-color: #111217
+}
+
+html.hb-day .globalOrders dl dd {
+    border-color: #e6ecf2
+}
+
+html.hb-dark .globalOrders dl dd {
+    border-color: #111114
+}
+
+html.hb-night .globalOrders dl dd {
+    color: #b0b8db
+}
+
+html.hb-day .globalOrders dl dd {
+    color: #596a7a
+}
+
+html.hb-dark .globalOrders dl dd {
+    color: #a7b7c7
+}
+
+.globalOrders dl dd .mock-a.created i,.globalOrders dl dd .mock-a.partial-filled i,.globalOrders dl dd .mock-a.submitted i {
+    padding: 2px 10px;
+    border: 1px solid;
+    border-radius: 3px
+}
+
+html.hb-night .globalOrders dl dd .mock-a.created i,html.hb-night .globalOrders dl dd .mock-a.partial-filled i,html.hb-night .globalOrders dl dd .mock-a.submitted i {
+    border-color: #383f66
+}
+
+html.hb-day .globalOrders dl dd .mock-a.created i,html.hb-day .globalOrders dl dd .mock-a.partial-filled i,html.hb-day .globalOrders dl dd .mock-a.submitted i {
+    border-color: #cad7e0
+}
+
+html.hb-dark .globalOrders dl dd .mock-a.created i,html.hb-dark .globalOrders dl dd .mock-a.partial-filled i,html.hb-dark .globalOrders dl dd .mock-a.submitted i {
+    border-color: #3f4254
+}
+
+.globalOrders dl dd .mock-a.created i:hover,.globalOrders dl dd .mock-a.partial-filled i:hover,.globalOrders dl dd .mock-a.submitted i:hover {
+    color: #357ce1
+}
+
+html.hb-dark .globalOrders dl dd .mock-a.created i:hover,html.hb-dark .globalOrders dl dd .mock-a.partial-filled i:hover,html.hb-dark .globalOrders dl dd .mock-a.submitted i:hover,html.hb-day .globalOrders dl dd .mock-a.created i:hover,html.hb-day .globalOrders dl dd .mock-a.partial-filled i:hover,html.hb-day .globalOrders dl dd .mock-a.submitted i:hover,html.hb-night .globalOrders dl dd .mock-a.created i:hover,html.hb-night .globalOrders dl dd .mock-a.partial-filled i:hover,html.hb-night .globalOrders dl dd .mock-a.submitted i:hover {
+    border-color: #357ce1
+}
+
+html.hb-night .globalOrders dl dd .mock-a.cancelling {
+    color: #b0b8db
+}
+
+html.hb-day .globalOrders dl dd .mock-a.cancelling {
+    color: #596a7a
+}
+
+html.hb-dark .globalOrders dl dd .mock-a.cancelling {
+    color: #a7b7c7
+}
+
+.globalOrders dl dd .mock-a .icon_arrow_down {
+    display: inline-block;
+    width: 8px;
+    height: 4px;
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/92dc1a2.svg) no-repeat 50%;
+    background-size: 100%;
+    vertical-align: top;
+    margin-top: 20px
+}
+
+html.hb-night .globalOrders dl dd.list:hover {
+    background-color: rgba(37,42,68,.5)
+}
+
+html.hb-day .globalOrders dl dd.list:hover {
+    background-color: rgba(229,235,245,.5)
+}
+
+html.hb-dark .globalOrders dl dd.list:hover {
+    background-color: rgba(52,54,63,.5)
+}
+
+html.hb-night .globalOrders dl dd.canceled {
+    color: #61688a
+}
+
+html.hb-day .globalOrders dl dd.canceled {
+    color: #9ca9b5
+}
+
+html.hb-dark .globalOrders dl dd.canceled {
+    color: #697080
+}
+
+html.hb-night .globalOrders dl dd.canceled .color-buy,html.hb-night .globalOrders dl dd.canceled .color-sell {
+    color: #61688a
+}
+
+html.hb-day .globalOrders dl dd.canceled .color-buy,html.hb-day .globalOrders dl dd.canceled .color-sell {
+    color: #9ca9b5
+}
+
+html.hb-dark .globalOrders dl dd.canceled .color-buy,html.hb-dark .globalOrders dl dd.canceled .color-sell {
+    color: #697080
+}
+
+.globalOrders dl dd.cur {
+    position: relative;
+    border: none
+}
+
+.globalOrders dl dd.cur+dd {
+    border: 1px solid
+}
+
+html.hb-night .globalOrders dl dd.cur+dd {
+    border-color: #111217
+}
+
+html.hb-day .globalOrders dl dd.cur+dd {
+    border-color: #e6ecf2
+}
+
+html.hb-dark .globalOrders dl dd.cur+dd {
+    border-color: #111114
+}
+
+.globalOrders dl dd.cur .icon_arrow_down {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.globalOrders dl dd.list-detail {
+    border: none
+}
+
+.globalOrders dl dd.list-detail .order-detail {
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    height: 0;
+    overflow: hidden;
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    -ms-flex-negative: unset;
+    flex-shrink: unset
+}
+
+html.hb-night .globalOrders dl dd.list-detail .order-detail {
+    background-color: rgba(19,22,37,.7)
+}
+
+html.hb-day .globalOrders dl dd.list-detail .order-detail {
+    background-color: rgba(242,246,250,.7)
+}
+
+html.hb-dark .globalOrders dl dd.list-detail .order-detail {
+    background-color: rgba(25,26,31,.7)
+}
+
+.globalOrders dl dd.list-detail .order-detail.show-detail {
+    height: auto
+}
+
+.globalOrders dl dd.list-detail .order-detail>dt,.globalOrders dl dd.list-detail .order-detail dd {
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.globalOrders dl dd.list-detail .order-detail dd.loading {
+    height: 38px
+}
+
+.globalOrders dl dd.list-detail dl {
+    position: relative
+}
+
+.globalOrders dl dd.list-detail dl dt {
+    height: 24px;
+    line-height: 24px
+}
+
+.globalOrders dl dd.list-detail dl dd {
+    height: 38px;
+    line-height: 38px
+}
+
+.globalOrders dl dd.list-detail dl dd,.globalOrders dl dd.list-detail dl dt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: none
+}
+
+.globalOrders dl dd.list-detail dl dd span,.globalOrders dl dd.list-detail dl dt span {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.globalOrders dl dd.list-detail dl dd span:first-of-type,.globalOrders dl dd.list-detail dl dd span:nth-of-type(2),.globalOrders dl dd.list-detail dl dt span:first-of-type,.globalOrders dl dd.list-detail dl dt span:nth-of-type(2) {
+    -webkit-box-flex: .5;
+    -ms-flex: .5;
+    flex: .5
+}
+
+.globalOrders dl dd.list-detail dl dd .fee,.globalOrders dl dd.list-detail dl dt .fee {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-item-align: center;
+    align-self: center
+}
+
+.globalOrders dl dd.list-detail dl dd .fee.points.fees,.globalOrders dl dd.list-detail dl dt .fee.points.fees {
+    line-height: 1
+}
+
+.globalOrders dl dd.no-data {
+    border: none;
+    text-align: center;
+    height: 225px
+}
+
+.globalOrders dl dd.no-data,.globalOrders dl dd.no-data dl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.globalOrders dl dd.no-data dl {
+    width: 350px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.globalOrders dl dd.no-data dl>* {
+    margin: 0
+}
+
+.globalOrders dl dd.no-data dl.icon-no-order {
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/736c296.svg) no-repeat top
+}
+
+.globalOrders dl dd.no-data dl dt {
+    margin-top: 52px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 14px
+}
+
+html.hb-night .globalOrders dl dd.no-data dl dt {
+    color: #61688a
+}
+
+html.hb-day .globalOrders dl dd.no-data dl dt {
+    color: #9ca9b5
+}
+
+html.hb-dark .globalOrders dl dd.no-data dl dt {
+    color: #697080
+}
+
+.globalOrders dl dd.no-data dl dd {
+    display: none
+}
+
+.globalOrders .order-container .order-table {
+    min-height: 225px
+}
+
+.globalOrders .order-container span.time {
+    width: 6%;
+    text-align: left
+}
+
+.globalOrders .order-container span.symbol,.globalOrders .order-container span.type {
+    width: 6%
+}
+
+.globalOrders .order-container span.direct,.globalOrders .order-container span.way {
+    width: 8%
+}
+
+.globalOrders .order-container span.price {
+    width: 9%
+}
+
+.globalOrders .order-container span.amount,.globalOrders .order-container span.amount-executed,.globalOrders .order-container span.amount-total,.globalOrders .order-container span.amount-unexecuted {
+    width: 10%
+}
+
+.globalOrders .order-container span.stop-price {
+    width: 9%
+}
+
+.globalOrders .order-container span.rate {
+    width: 8%
+}
+
+.globalOrders .order-container span.action {
+    width: 7%;
+    float: right
+}
+
+@media screen and (max-width: 1560px) {
+    .globalOrders .order-container span.time {
+        width:8%
+    }
+
+    .globalOrders .order-container span.symbol {
+        width: 7%
+    }
+
+    .globalOrders .order-container span.type,.globalOrders .order-container span.way {
+        display: none
+    }
+
+    .globalOrders .order-container span.direct {
+        width: 8%
+    }
+
+    .globalOrders .order-container span.price {
+        width: 10%
+    }
+
+    .globalOrders .order-container span.amount,.globalOrders .order-container span.amount-executed,.globalOrders .order-container span.amount-total,.globalOrders .order-container span.amount-unexecuted,.globalOrders .order-container span.stop-price {
+        width: 11%
+    }
+
+    .globalOrders .order-container span.rate {
+        display: none
+    }
+
+    .globalOrders .order-container span.action {
+        width: 9%
+    }
+}
+
+.globalOrders .order-history .order-table {
+    min-height: 225px
+}
+
+.globalOrders .order-history span.time {
+    width: 6.9%;
+    text-align: left
+}
+
+.globalOrders .order-history span.symbol {
+    width: 5%
+}
+
+.globalOrders .order-history span.type {
+    width: 7%
+}
+
+.globalOrders .order-history span.way {
+    width: 6%
+}
+
+.globalOrders .order-history span.direct {
+    width: 7%
+}
+
+.globalOrders .order-history span.amount,.globalOrders .order-history span.amount-average,.globalOrders .order-history span.amount-executed,.globalOrders .order-history span.amount-sum,.globalOrders .order-history span.price {
+    width: 9%
+}
+
+.globalOrders .order-history span.stop-price {
+    width: 8%
+}
+
+.globalOrders .order-history span.state {
+    width: 7%
+}
+
+.globalOrders .order-history span.action {
+    width: 8%
+}
+
+@media screen and (max-width: 1560px) {
+    .globalOrders .order-history span.time {
+        width:6.9%;
+        text-align: left
+    }
+
+    .globalOrders .order-history span.symbol {
+        width: 6%
+    }
+
+    .globalOrders .order-history span.direct {
+        width: 8%
+    }
+
+    .globalOrders .order-history span.type,.globalOrders .order-history span.way {
+        display: none
+    }
+
+    .globalOrders .order-history span.price {
+        width: 9%
+    }
+
+    .globalOrders .order-history span.amount,.globalOrders .order-history span.amount-average,.globalOrders .order-history span.amount-executed,.globalOrders .order-history span.amount-sum {
+        width: 11%
+    }
+
+    .globalOrders .order-history span.state,.globalOrders .order-history span.stop-price {
+        width: 9%
+    }
+
+    .globalOrders .order-history span.action {
+        width: 8%
+    }
+}
+
+.globalOrders span.stop-price .hb_icon_tip {
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    cursor: pointer
+}
+
+.globalOrders span.stop-price .hb_icon_tip .tips {
+    display: none;
+    z-index: 2;
+    padding: 8px;
+    border-radius: 2px;
+    width: auto;
+    border-radius: 4px;
+    margin-left: auto/2-auto-10px;
+    bottom: calc(100% + 12px);
+    -webkit-filter: drop-shadow(0 2px 10px rgba(0,0,0,.15));
+    filter: drop-shadow(0 2px 10px rgba(0,0,0,.15))
+}
+
+html.hb-night .globalOrders span.stop-price .hb_icon_tip .tips {
+    color: #000
+}
+
+html.hb-day .globalOrders span.stop-price .hb_icon_tip .tips {
+    color: #fff
+}
+
+html.hb-dark .globalOrders span.stop-price .hb_icon_tip .tips {
+    color: #000
+}
+
+html.hb-night .globalOrders span.stop-price .hb_icon_tip .tips {
+    background-color: #fff
+}
+
+html.hb-day .globalOrders span.stop-price .hb_icon_tip .tips {
+    background-color: #263241
+}
+
+html.hb-dark .globalOrders span.stop-price .hb_icon_tip .tips {
+    background-color: #fff
+}
+
+.globalOrders span.stop-price .hb_icon_tip .tips:before {
+    width: 0;
+    height: 0;
+    position: absolute;
+    content: "";
+    left: 50%;
+    margin-left: -6px;
+    bottom: -6px;
+    border-top: 6px solid;
+    border-left: 6px dashed transparent;
+    border-right: 6px dashed transparent
+}
+
+html.hb-night .globalOrders span.stop-price .hb_icon_tip .tips:before {
+    border-top-color: #fff
+}
+
+html.hb-day .globalOrders span.stop-price .hb_icon_tip .tips:before {
+    border-top-color: #263241
+}
+
+html.hb-dark .globalOrders span.stop-price .hb_icon_tip .tips:before {
+    border-top-color: #fff
+}
+
+.globalOrders span.stop-price .hb_icon_tip.hov .tips,.globalOrders span.stop-price .hb_icon_tip:hover .tips {
+    display: block
+}
+
+html.hb-night .globalOrders span.stop-price .hb_icon_tip {
+    color: #61688a
+}
+
+html.hb-day .globalOrders span.stop-price .hb_icon_tip {
+    color: #9ca9b5
+}
+
+html.hb-dark .globalOrders span.stop-price .hb_icon_tip {
+    color: #697080
+}
+
+html.hb-dark .globalOrders span.stop-price .hb_icon_tip:hover,html.hb-day .globalOrders span.stop-price .hb_icon_tip:hover,html.hb-night .globalOrders span.stop-price .hb_icon_tip:hover {
+    color: #357ce1
+}
+
+.globalOrders span.stop-price .hb_icon_tip .tips {
+    padding: 10px 24px;
+    bottom: 100%;
+    background-color: #fff!important;
+    font-size: 12px;
+    line-height: 18px;
+    color: #596a7a!important;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    cursor: auto
+}
+
+.globalOrders span.stop-price .hb_icon_tip .tips:before {
+    border-top-color: #fff!important
+}
+
+.hb-night .globalOrders dl dd.no-data dl.icon-no-order {
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/2fa6997.svg) no-repeat top
+}
+
+.hb-dark .globalOrders dl dd.no-data dl.icon-no-order {
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/7764109.svg) no-repeat top
+}
+
+.page-global-exchange[data-v-6626a4da] {
+    width: 100%
+}
+
+html.hb-night .page-global-exchange[data-v-6626a4da] ::-webkit-scrollbar-thumb {
+    background-color: #383f66
+}
+
+html.hb-day .page-global-exchange[data-v-6626a4da] ::-webkit-scrollbar-thumb {
+    background-color: #cad7e0
+}
+
+html.hb-dark .page-global-exchange[data-v-6626a4da] ::-webkit-scrollbar-thumb {
+    background-color: #3f4254
+}
+
+.page-global-exchange[data-v-6626a4da] ::-webkit-scrollbar {
+    width: 8px
+}
+
+html.hb-night .page-global-exchange[data-v-6626a4da] ::-webkit-scrollbar {
+    background-color: rgba(56,63,102,.3)
+}
+
+html.hb-day .page-global-exchange[data-v-6626a4da] ::-webkit-scrollbar {
+    background-color: rgba(202,215,224,.3)
+}
+
+html.hb-dark .page-global-exchange[data-v-6626a4da] ::-webkit-scrollbar {
+    background-color: rgba(63,66,84,.3)
+}
+
+.page-global-exchange a[data-v-6626a4da] {
+    text-decoration: none
+}
+
+html.hb-night .page-global-exchange[data-v-6626a4da] {
+    background-color: #252a44
+}
+
+html.hb-day .page-global-exchange[data-v-6626a4da] {
+    background-color: #e5ebf5
+}
+
+html.hb-dark .page-global-exchange[data-v-6626a4da] {
+    background-color: #34363f
+}
+
+.page-global-exchange>div[data-v-6626a4da] {
+    margin-bottom: 6px
+}
+
+.page-global-exchange .mod[data-v-6626a4da] {
+    border-radius: 2px
+}
+
+.page-global-exchange .content-top[data-v-6626a4da] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 670px;
+    margin-top: 6px
+}
+
+.page-global-exchange .content-top>div[data-v-6626a4da] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.page-global-exchange .content-top>div.left[data-v-6626a4da] {
+    width: 300px;
+    height: 100%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-radius: 2px
+}
+
+html.hb-night .page-global-exchange .content-top>div.left[data-v-6626a4da] {
+    background-color: #171b2b
+}
+
+html.hb-day .page-global-exchange .content-top>div.left[data-v-6626a4da] {
+    background-color: #fff
+}
+
+html.hb-dark .page-global-exchange .content-top>div.left[data-v-6626a4da] {
+    background-color: #1f2126
+}
+
+.page-global-exchange .content-top>div.left .coin-switch[data-v-6626a4da] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: auto;
+    flex: auto;
+    height: 100%;
+    padding-bottom: 0
+}
+
+.page-global-exchange .content-top>div.right[data-v-6626a4da] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    width: calc(100% - 300px)
+}
+
+.page-global-exchange .content-top>div.right .l[data-v-6626a4da] {
+    margin: 0 6px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: calc(100% - 312px);
+    position: relative
+}
+
+.page-global-exchange .content-top>div.right .l .trading-chart[data-v-6626a4da] {
+    -webkit-box-flex: 1;
+    -ms-flex: auto;
+    flex: auto;
+    height: 100%
+}
+
+html.hb-night .page-global-exchange .content-top>div.right .l .trading-chart[data-v-6626a4da] {
+    background-color: #171b2b
+}
+
+html.hb-day .page-global-exchange .content-top>div.right .l .trading-chart[data-v-6626a4da] {
+    background-color: #fff
+}
+
+html.hb-dark .page-global-exchange .content-top>div.right .l .trading-chart[data-v-6626a4da] {
+    background-color: #1f2126
+}
+
+.page-global-exchange .content-top>div.right .l .balance-wrap[data-v-6626a4da] {
+    margin-top: 6px;
+    border-radius: 2px
+}
+
+.page-global-exchange .content-top>div.right .l .trade-panel[data-v-6626a4da] {
+    margin-top: 6px;
+    height: 260px
+}
+
+html.hb-night .page-global-exchange .content-top>div.right .l .trade-panel[data-v-6626a4da] {
+    background-color: #171b2b
+}
+
+html.hb-day .page-global-exchange .content-top>div.right .l .trade-panel[data-v-6626a4da] {
+    background-color: #fff
+}
+
+html.hb-dark .page-global-exchange .content-top>div.right .l .trade-panel[data-v-6626a4da] {
+    background-color: #1f2126
+}
+
+.page-global-exchange .content-top>div.right .l .trade[data-v-6626a4da] {
+    position: relative
+}
+
+.page-global-exchange .content-top>div.right .l .trade .suspend[data-v-6626a4da] {
+    width: 100%;
+    height: calc(100% - 6px);
+    position: absolute;
+    top: 6px;
+    left: 0;
+    border-radius: 2px;
+    opacity: .9;
+    z-index: 2
+}
+
+html.hb-night .page-global-exchange .content-top>div.right .l .trade .suspend[data-v-6626a4da] {
+    background-color: #171b2b
+}
+
+html.hb-day .page-global-exchange .content-top>div.right .l .trade .suspend[data-v-6626a4da] {
+    background-color: #fff
+}
+
+html.hb-dark .page-global-exchange .content-top>div.right .l .trade .suspend[data-v-6626a4da] {
+    background-color: #1f2126
+}
+
+.page-global-exchange .content-top>div.right .l .trade .text[data-v-6626a4da] {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    line-height: 100%;
+    text-align: center;
+    z-index: 2;
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/67b281a.svg) no-repeat 50%
+}
+
+.page-global-exchange .content-top>div.right .l .trade .text span[data-v-6626a4da] {
+    position: relative;
+    top: 120px
+}
+
+html.hb-night .page-global-exchange .content-top>div.right .l .trade .text span[data-v-6626a4da] {
+    color: #d2d6ec
+}
+
+html.hb-day .page-global-exchange .content-top>div.right .l .trade .text span[data-v-6626a4da] {
+    color: #1c242c
+}
+
+html.hb-dark .page-global-exchange .content-top>div.right .l .trade .text span[data-v-6626a4da] {
+    color: #d5def2
+}
+
+.page-global-exchange .content-top>div.right .l .trade.margin-trade .suspend[data-v-6626a4da] {
+    height: calc(100% - 41px);
+    top: 41px
+}
+
+.page-global-exchange .content-top>div.right .l .trade.margin-trade .text[data-v-6626a4da] {
+    top: 46px;
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/cf3c936.svg) no-repeat 50%!important
+}
+
+.page-global-exchange .content-top>div.right .l .online[data-v-6626a4da] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    border-radius: 2px;
+    text-align: center;
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/ea6c849.svg) no-repeat;
+    background-position: bottom;
+    background-size: 100%
+}
+
+html.hb-night .page-global-exchange .content-top>div.right .l .online[data-v-6626a4da] {
+    background-color: #171b2b
+}
+
+html.hb-day .page-global-exchange .content-top>div.right .l .online[data-v-6626a4da] {
+    background-color: #fff
+}
+
+html.hb-dark .page-global-exchange .content-top>div.right .l .online[data-v-6626a4da] {
+    background-color: #1f2126
+}
+
+.page-global-exchange .content-top>div.right .l .online>div[data-v-6626a4da] {
+    margin-top: 220px
+}
+
+.page-global-exchange .content-top>div.right .l .online p[data-v-6626a4da]:first-child {
+    font-size: 20px
+}
+
+html.hb-night .page-global-exchange .content-top>div.right .l .online p[data-v-6626a4da]:first-child {
+    color: #d2d6ec
+}
+
+html.hb-day .page-global-exchange .content-top>div.right .l .online p[data-v-6626a4da]:first-child {
+    color: #1c242c
+}
+
+html.hb-dark .page-global-exchange .content-top>div.right .l .online p[data-v-6626a4da]:first-child {
+    color: #d5def2
+}
+
+.page-global-exchange .content-top>div.right .l .online p[data-v-6626a4da]:last-child {
+    font-size: 16px;
+    margin-top: 24px
+}
+
+html.hb-night .page-global-exchange .content-top>div.right .l .online p[data-v-6626a4da]:last-child {
+    color: #b0b8db
+}
+
+html.hb-day .page-global-exchange .content-top>div.right .l .online p[data-v-6626a4da]:last-child {
+    color: #596a7a
+}
+
+html.hb-dark .page-global-exchange .content-top>div.right .l .online p[data-v-6626a4da]:last-child {
+    color: #a7b7c7
+}
+
+.page-global-exchange .content-top>div.right .l .online p span[data-v-6626a4da] {
+    display: inline-block;
+    width: 24px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 2px;
+    margin: 0 3px;
+    position: relative
+}
+
+html.hb-night .page-global-exchange .content-top>div.right .l .online p span[data-v-6626a4da] {
+    color: #171b2b
+}
+
+html.hb-day .page-global-exchange .content-top>div.right .l .online p span[data-v-6626a4da] {
+    color: #fff
+}
+
+html.hb-dark .page-global-exchange .content-top>div.right .l .online p span[data-v-6626a4da] {
+    color: #1f2126
+}
+
+html.hb-night .page-global-exchange .content-top>div.right .l .online p span[data-v-6626a4da] {
+    background-color: #d2d6ec
+}
+
+html.hb-day .page-global-exchange .content-top>div.right .l .online p span[data-v-6626a4da] {
+    background-color: #1c242c
+}
+
+html.hb-dark .page-global-exchange .content-top>div.right .l .online p span[data-v-6626a4da] {
+    background-color: #d5def2
+}
+
+.page-global-exchange .content-top>div.right .l .online p span i[data-v-6626a4da] {
+    position: absolute;
+    left: 0;
+    top: 14px;
+    width: 100%;
+    height: 1px;
+    background-color: #9db4ca
+}
+
+.page-global-exchange .content-top>div.right .l .online p span b[data-v-6626a4da] {
+    z-index: 1
+}
+
+.page-global-exchange .content-top>div.right .l .online p span.left10[data-v-6626a4da] {
+    margin-left: 10px
+}
+
+.page-global-exchange .content-top>div.right .l .online p span.mr6[data-v-6626a4da] {
+    margin-right: 6px
+}
+
+.page-global-exchange .content-top>div.right .r[data-v-6626a4da] {
+    width: 300px
+}
+
+.page-global-exchange .content-top>div.right .r.trades-container[data-v-6626a4da] {
+    position: relative
+}
+
+.page-global-exchange .content-bottom[data-v-6626a4da],.page-global-exchange .content-center[data-v-6626a4da] {
+    width: 100%
+}
+
+html.hb-night .page-global-exchange .content-bottom[data-v-6626a4da],html.hb-night .page-global-exchange .content-center[data-v-6626a4da] {
+    background-color: #171b2b
+}
+
+html.hb-day .page-global-exchange .content-bottom[data-v-6626a4da],html.hb-day .page-global-exchange .content-center[data-v-6626a4da] {
+    background-color: #fff
+}
+
+html.hb-dark .page-global-exchange .content-bottom[data-v-6626a4da],html.hb-dark .page-global-exchange .content-center[data-v-6626a4da] {
+    background-color: #1f2126
+}
+
+.page-global-exchange .content-bottom[data-v-6626a4da] {
+    margin-bottom: 5px
+}
+
+.page-global-exchange .ieTips[data-v-6626a4da] {
+    z-index: 1300;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6)
+}
+
+.page-global-exchange .ieTips>div[data-v-6626a4da] {
+    width: 480px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -240px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: #fff;
+    border-radius: 2px
+}
+
+.page-global-exchange .ieTips>div .tip-img[data-v-6626a4da] {
+    width: 100%;
+    height: 152px;
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/3f0e2a9.svg) no-repeat 50%
+}
+
+.page-global-exchange .ieTips>div .tip-img img[data-v-6626a4da] {
+    position: relative;
+    top: 86px;
+    left: 122px
+}
+
+.page-global-exchange .ieTips>div .summary[data-v-6626a4da] {
+    width: 100%;
+    padding: 0 40px 40px
+}
+
+.page-global-exchange .ieTips>div .summary p[data-v-6626a4da] {
+    font-size: 16px;
+    font-weight: 550;
+    color: #1c242c;
+    line-height: 28px;
+    margin-bottom: 16px;
+    padding-top: 16px
+}
+
+.page-global-exchange .ieTips>div .summary span[data-v-6626a4da] {
+    display: block;
+    font-size: 14px;
+    line-height: 26px;
+    color: #596a7a
+}
+
+@media screen and (min-width: 1400px) {
+    .page-global-exchange .content-top[data-v-6626a4da] {
+        height:780px
+    }
+}
+
+@media screen and (min-width: 1560px) {
+    .page-global-exchange .content-top>div.right .l[data-v-6626a4da] {
+        width:calc(100% - 618px)
+    }
+
+    .page-global-exchange .content-top>div.right .r[data-v-6626a4da] {
+        width: 605px
+    }
+}
+
+.hb-dark .page-global-exchange .content-top>div.right .l .trade .text[data-v-6626a4da],.hb-night .page-global-exchange .content-top>div.right .l .trade .text[data-v-6626a4da] {
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/8714082.svg) no-repeat 50%
+}
+
+.hb-night .page-global-exchange[data-v-6626a4da] ::-webkit-scrollbar-thumb {
+    background-color: rgba(37,42,68,.5);
+    background-color: rgba(52,54,63,.5)
+}

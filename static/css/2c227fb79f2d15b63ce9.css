@@ -1,0 +1,526 @@
+.header[data-v-157fd740] {
+    padding: 24px;
+    position: relative
+}
+
+.header h3[data-v-157fd740] {
+    font-size: 20px
+}
+
+.header span.close[data-v-157fd740] {
+    position: absolute;
+    right: 15px;
+    background: transparent url(https://file.huobiasia.vip/global/zh-cn/static/img/3aaa2cd.svg) no-repeat 50%;
+    width: 24px;
+    height: 24px;
+    top: 24px;
+    cursor: pointer
+}
+
+@-webkit-keyframes spin-data-v-4dfc812a {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes spin-data-v-4dfc812a {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+.button_control[data-v-4dfc812a] {
+    position: relative;
+    width: 100%
+}
+
+.button_control .login_button[data-v-4dfc812a] {
+    display: inline-block;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    cursor: default;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s
+}
+
+.button_control .login_button.text_button[data-v-4dfc812a] {
+    background-color: #357ce1;
+    color: #fff;
+    cursor: pointer
+}
+
+.button_control .login_button.text_button[data-v-4dfc812a]:visited {
+    color: #fff
+}
+
+.button_control .login_button.text_button[data-v-4dfc812a]:focus,.button_control .login_button.text_button[data-v-4dfc812a]:hover {
+    background-color: rgba(53,124,225,.7);
+    text-decoration: none;
+    outline: none
+}
+
+.button_control .login_button.text_button.active[data-v-4dfc812a],.button_control .login_button.text_button[data-v-4dfc812a]:active {
+    text-shadow: 0 1px 0 hsla(0,0%,100%,.3);
+    text-decoration: none;
+    background-color: #306fc7;
+    -webkit-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.2);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.2)
+}
+
+.button_control .login_button.text_button .slot_box[data-v-4dfc812a] {
+    display: inline
+}
+
+.button_control .login_button.text_button .icon_box[data-v-4dfc812a] {
+    display: none
+}
+
+.button_control .login_button.loading_button[data-v-4dfc812a],.button_control .login_button.success_button[data-v-4dfc812a] {
+    background-color: #357ce1;
+    color: #fff
+}
+
+.button_control .login_button.loading_button .icon_box[data-v-4dfc812a],.button_control .login_button.success_button .icon_box[data-v-4dfc812a] {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: top;
+    margin-top: 15px
+}
+
+.button_control .login_button.loading_button .slot_box[data-v-4dfc812a],.button_control .login_button.success_button .slot_box[data-v-4dfc812a] {
+    display: none
+}
+
+.button_control .login_button.loading_button .icon_box[data-v-4dfc812a] {
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/c073ecb.svg) no-repeat 50%;
+    background-size: 18px 18px
+}
+
+.button_control .login_button.success_button .icon_box[data-v-4dfc812a] {
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/391685a.svg) no-repeat 50%;
+    background-size: 18px 18px
+}
+
+.button_control .login_button.disabled[data-v-4dfc812a],.button_control .login_button[data-v-4dfc812a]:disabled {
+    top: 0!important;
+    background: #357ce1!important;
+    text-shadow: 0 1px 1px #fff!important;
+    cursor: no-drop!important;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    appearance: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    opacity: .3!important
+}
+
+.alert[data-v-11b4c952] {
+    width: 100%;
+    padding: 16px;
+    border-radius: 3px;
+    font-size: 12px
+}
+
+.alert.warning[data-v-11b4c952] {
+    background-color: #fffae6;
+    color: #cc7c09
+}
+
+.alert.error[data-v-11b4c952] {
+    color: #df4a53;
+    background-color: #feeeee
+}
+
+.security-container[data-v-3b7e89df] {
+    padding: 0 20px 24px
+}
+
+.security-container dl dd[data-v-3b7e89df] {
+    margin-bottom: 16px
+}
+
+.security-container .request-code[data-v-3b7e89df],.security-container .timeleft[data-v-3b7e89df] {
+    position: absolute;
+    right: 16px;
+    top: 18px;
+    z-index: 10
+}
+
+.security-container .request-code span[data-v-3b7e89df],.security-container .timeleft span[data-v-3b7e89df] {
+    color: #357ce1
+}
+
+.security-container .request-code button[data-v-3b7e89df],.security-container .timeleft[data-v-3b7e89df],.security-container .timeleft button[data-v-3b7e89df] {
+    color: #7f8fa4
+}
+
+.security-container .timeleft span[data-v-3b7e89df] {
+    color: #357ce1
+}
+
+.security-container .ga-tips[data-v-3b7e89df] {
+    margin-top: 4px;
+    color: #9aa5b5
+}
+
+.security-container .submit-primary[data-v-3b7e89df] {
+    width: 100%;
+    height: 40px;
+    line-height: 1;
+    text-align: center
+}
+
+.password_score[data-v-4cd5af30] {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 3px
+}
+
+.password_score .password_point[data-v-4cd5af30] {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.password_score .password_point span[data-v-4cd5af30] {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #dfe2e7;
+    border-radius: 1px;
+    margin: 1px 0
+}
+
+.password_score .password_score_tips[data-v-4cd5af30] {
+    display: none;
+    position: absolute;
+    width: 240px;
+    top: -8px;
+    right: -242px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 4px 8px -2px rgba(8,31,64,.3);
+    box-shadow: 0 4px 8px -2px rgba(8,31,64,.3);
+    -webkit-filter: drop-shadow(0 0 1px rgba(8,31,64,.3));
+    filter: drop-shadow(0 0 1px rgba(8,31,64,.3));
+    padding: 16px;
+    border-radius: 3px;
+    background-color: #fff
+}
+
+.password_score .password_score_tips .pwd_state[data-v-4cd5af30] {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 4px;
+    text-transform: capitalize
+}
+
+.password_score .password_score_tips .tips_content[data-v-4cd5af30] {
+    width: 100%;
+    font-size: 12px;
+    line-height: 16px;
+    color: #627386
+}
+
+.password_score .password_score_tips[data-v-4cd5af30]:after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: -8px;
+    border-left: 0;
+    border-right: 8px solid #fff;
+    border-top: 8px dashed transparent;
+    border-bottom: 8px dashed transparent
+}
+
+.password_score.weak .password_point[data-v-4cd5af30] {
+    cursor: pointer
+}
+
+.password_score.weak .password_point span[data-v-4cd5af30]:nth-child(3) {
+    background-color: #e69b0a
+}
+
+.password_score.weak .password_score_tips .pwd_state[data-v-4cd5af30] {
+    color: #e69b0a
+}
+
+.password_score.medium .password_point[data-v-4cd5af30] {
+    cursor: pointer
+}
+
+.password_score.medium .password_point span[data-v-4cd5af30]:nth-child(2),.password_score.medium .password_point span[data-v-4cd5af30]:nth-child(3) {
+    background-color: #12b886
+}
+
+.password_score.medium .password_score_tips .pwd_state[data-v-4cd5af30] {
+    color: #12b886
+}
+
+.password_score.strong .password_point[data-v-4cd5af30] {
+    cursor: pointer
+}
+
+.password_score.strong .password_point span[data-v-4cd5af30] {
+    background-color: #12b886
+}
+
+.password_score.strong .password_score_tips .pwd_state[data-v-4cd5af30] {
+    color: #12b886
+}
+
+.password_score[data-v-4cd5af30]:hover {
+    background-color: #f8f9fa
+}
+
+.password_score:hover .password_score_tips[data-v-4cd5af30] {
+    display: block
+}
+
+.reset-background[data-v-980c5ddc] {
+    min-height: 522px;
+    width: 100%;
+    height: 100%;
+    background: #242e48
+}
+
+.reset-background .reset-password[data-v-980c5ddc] {
+    width: 496px;
+    padding: 32px 48px;
+    margin-top: 40px;
+    background: #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 4px 0 #183967;
+    box-shadow: 0 1px 4px 0 #183967
+}
+
+.reset-background .reset-password h1[data-v-980c5ddc] {
+    text-align: center;
+    color: #263241;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 32px
+}
+
+.reset-background .reset-password .point[data-v-980c5ddc] {
+    width: 400px;
+    height: 68px;
+    padding: 16px;
+    background: #fffae6;
+    border-radius: 3px
+}
+
+.reset-background .reset-password .point p[data-v-980c5ddc] {
+    color: #cc7c09;
+    font-size: 12px;
+    line-height: 18px
+}
+
+.reset-background .reset-password .return-message[data-v-980c5ddc] {
+    width: 400px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background: #feeeee;
+    border-radius: 3px;
+    color: #df4a53;
+    font-size: 12px;
+    line-height: 18px
+}
+
+.reset-background .reset-password .account-box[data-v-980c5ddc] {
+    width: 400px;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+    color: #9aa5b5
+}
+
+.reset-background .reset-password .reset-sub[data-v-980c5ddc] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 400px;
+    height: 48px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #357ce1;
+    cursor: pointer;
+    margin: 24px 0 16px
+}
+
+.reset-background .reset-password .reset-sub span[data-v-980c5ddc] {
+    font-size: 14px;
+    line-height: 48px;
+    color: #fff
+}
+
+.reset-background .reset-password .reset-sub[data-v-980c5ddc]:hover {
+    background-color: #0355c5
+}
+
+.reset-background .new-password-box[data-v-980c5ddc] {
+    width: 496px;
+    padding: 32px 48px;
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 4px #183967;
+    box-shadow: 0 1px 4px #183967
+}
+
+.reset-background .new-password-box .return-message[data-v-980c5ddc] {
+    width: 400px;
+    padding: 16px;
+    background: #feeeee;
+    border-radius: 3px;
+    color: #df4a53;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 16px
+}
+
+.reset-background .new-password-box h1[data-v-980c5ddc] {
+    text-align: center;
+    color: #263241;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 32px
+}
+
+.reset-background .new-password-box .new-password[data-v-980c5ddc] {
+    position: relative;
+    color: #9aa5b5;
+    width: 400px;
+    height: 78px;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 20px
+}
+
+.reset-background .new-password-box .new-password[data-v-980c5ddc] .pwd-tips {
+    position: absolute;
+    top: 15px;
+    right: 8px;
+    z-index: 2
+}
+
+.reset-background .new-password-box .new-password[data-v-980c5ddc] .password-tips {
+    width: 100%;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    margin-top: 8px
+}
+
+.reset-background .new-password-box .new-password[data-v-980c5ddc] .password-tips span {
+    color: #9aa5b5;
+    margin-right: 14px
+}
+
+.reset-background .new-password-box .new-password[data-v-980c5ddc] .password-tips span i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/850dfb4.svg) no-repeat 50%;
+    background-size: contain
+}
+
+.reset-background .new-password-box .new-password[data-v-980c5ddc] .password-tips span.no {
+    color: #fa5252
+}
+
+.reset-background .new-password-box .new-password[data-v-980c5ddc] .password-tips span.no i {
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/0b0dfc4.svg) no-repeat 50%
+}
+
+.reset-background .new-password-box .new-password[data-v-980c5ddc] .password-tips span.yes {
+    color: #12b886
+}
+
+.reset-background .new-password-box .new-password[data-v-980c5ddc] .password-tips span.yes i {
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/10934e9.svg) no-repeat 50%
+}
+
+.reset-background .new-password-box .confirm-password[data-v-980c5ddc] {
+    margin-top: 6px;
+    color: #9aa5b5;
+    width: 400px;
+    height: 78px;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 20px
+}
+
+.reset-background .new-password-box .reset-sub[data-v-980c5ddc] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 400px;
+    height: 48px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #357ce1;
+    cursor: pointer;
+    margin-bottom: 16px
+}
+
+.reset-background .new-password-box .reset-sub span[data-v-980c5ddc] {
+    font-size: 14px;
+    line-height: 48px;
+    color: #fff
+}
+
+.reset-background .new-password-box .reset-sub[data-v-980c5ddc]:hover {
+    background-color: #0355c5
+}

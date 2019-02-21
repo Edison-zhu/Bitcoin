@@ -1,0 +1,389 @@
+.mod-head:after {
+    display: block;
+    clear: both;
+    content: ""
+}
+
+.mod {
+    border-radius: 4px;
+    width: 100%;
+    overflow: hidden
+}
+
+html.hb-night .mod {
+    background-color: #1a243b
+}
+
+html.hb-day .mod {
+    background-color: #fff
+}
+
+html.hb-dark .mod {
+    background-color: #1a243b
+}
+
+.mod-head {
+    height: 40px;
+    padding: 0 16px;
+    line-height: 40px;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 700;
+    border-bottom: 1px solid;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html.hb-night .mod-head {
+    background-color: #1e2943
+}
+
+html.hb-day .mod-head {
+    background-color: #f8f9fa
+}
+
+html.hb-dark .mod-head {
+    background-color: #1e2943
+}
+
+html.hb-night .mod-head {
+    border-color: #2e3753
+}
+
+html.hb-day .mod-head {
+    border-color: #dfe2e7
+}
+
+html.hb-dark .mod-head {
+    border-color: #2e3753
+}
+
+@media screen and (max-width: 1440px) {
+    .mod-head {
+        line-height:32px;
+        font-size: 12px
+    }
+
+    .mod-head,.mod-head .mod-head {
+        height: 32px
+    }
+
+    .mod-head .ticker {
+        height: 48px
+    }
+}
+
+.mod-head.tabs {
+    padding-left: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 400;
+    position: relative
+}
+
+.mod-head.tabs .extra {
+    position: absolute;
+    right: 16px;
+    top: 0;
+    height: 40px
+}
+
+.mod-head.tabs a {
+    padding: 0 24px;
+    min-width: 120px;
+    font-size: 12px;
+    border-top: 2px solid transparent;
+    text-align: center
+}
+
+.mod-head.tabs a.nuxt-link-active {
+    border-top-color: #357ce1;
+    background: #fff
+}
+
+.mod-head.tabs .mock-a {
+    margin: 0 8px;
+    border-bottom: 2px solid transparent
+}
+
+html.hb-night .mod-head.tabs .mock-a {
+    color: #7085ac
+}
+
+html.hb-day .mod-head.tabs .mock-a {
+    color: #7f8fa4
+}
+
+html.hb-dark .mod-head.tabs .mock-a {
+    color: #7085ac
+}
+
+.mod-head.tabs .mock-a.cur {
+    border-bottom-color: #357ce1;
+    font-weight: 700
+}
+
+html.hb-night .mod-head.tabs .mock-a.cur {
+    color: #fff
+}
+
+html.hb-day .mod-head.tabs .mock-a.cur {
+    color: #4e5c6e
+}
+
+html.hb-dark .mod-head.tabs .mock-a.cur {
+    color: #fff
+}
+
+html.hb-dark .mod-head.tabs .mock-a.cur i,html.hb-day .mod-head.tabs .mock-a.cur i,html.hb-night .mod-head.tabs .mock-a.cur i {
+    color: #357ce1
+}
+
+.mod-head.tabs .mock-a.cur i:before {
+    content: "\F1C8"
+}
+
+.mod-head.tabs em {
+    font-size: 12px
+}
+
+html.hb-night .mod-head.tabs em {
+    color: #7085ac
+}
+
+html.hb-day .mod-head.tabs em {
+    color: #9aa5b5
+}
+
+html.hb-dark .mod-head.tabs em {
+    color: #7085ac
+}
+
+.mod-head .actions {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.mod-head .actions a {
+    border: none;
+    min-width: inherit;
+    padding: 0;
+    margin: 0 0 0 16px
+}
+
+.page.page-orderbooks .crumb,.page.page-orderbooks .orderbooks-list {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.page.page-orderbooks {
+    padding-bottom: 24px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+html.hb-night .page.page-orderbooks {
+    background-color: #252a44
+}
+
+html.hb-day .page.page-orderbooks {
+    background-color: #e5ebf5
+}
+
+html.hb-dark .page.page-orderbooks {
+    background-color: #34363f
+}
+
+.page.page-orderbooks .crumb {
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    margin-top: 24px;
+    padding: 0 30px;
+    border-radius: 3px
+}
+
+html.hb-night .page.page-orderbooks .crumb {
+    color: #d2d6ec
+}
+
+html.hb-day .page.page-orderbooks .crumb {
+    color: #1c242c
+}
+
+html.hb-dark .page.page-orderbooks .crumb {
+    color: #d5def2
+}
+
+html.hb-night .page.page-orderbooks .crumb {
+    background-color: #131625
+}
+
+html.hb-day .page.page-orderbooks .crumb {
+    background-color: #f2f6fa
+}
+
+html.hb-dark .page.page-orderbooks .crumb {
+    background-color: #191a1f
+}
+
+.page.page-orderbooks .crumb .arrow {
+    margin: 0 20px
+}
+
+.page.page-orderbooks .orderbooks-list {
+    margin-top: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.page.page-orderbooks .mod {
+    width: calc(50% - 2px)
+}
+
+.page.page-orderbooks .mod:first-child {
+    margin-right: 20px
+}
+
+html.hb-night .page.page-orderbooks .mod {
+    background-color: #171b2b
+}
+
+html.hb-day .page.page-orderbooks .mod {
+    background-color: #fff
+}
+
+html.hb-dark .page.page-orderbooks .mod {
+    background-color: #1f2126
+}
+
+.page.page-orderbooks .mod.asks dl.list {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(225,82,82,.15)),to(rgba(225,82,82,.15)));
+    background-image: -o-linear-gradient(rgba(225,82,82,.15),rgba(225,82,82,.15));
+    background-image: linear-gradient(rgba(225,82,82,.15),rgba(225,82,82,.15))
+}
+
+.page.page-orderbooks .mod.bids dl.list {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(27,150,128,.15)),to(rgba(27,150,128,.15)));
+    background-image: -o-linear-gradient(rgba(27,150,128,.15),rgba(27,150,128,.15));
+    background-image: linear-gradient(rgba(27,150,128,.15),rgba(27,150,128,.15))
+}
+
+.page.page-orderbooks .mod-head {
+    padding: 0 30px;
+    font-size: 16px
+}
+
+html.hb-night .page.page-orderbooks .mod-head {
+    color: #d2d6ec
+}
+
+html.hb-day .page.page-orderbooks .mod-head {
+    color: #1c242c
+}
+
+html.hb-dark .page.page-orderbooks .mod-head {
+    color: #d5def2
+}
+
+html.hb-night .page.page-orderbooks .mod-head {
+    border-color: #111217
+}
+
+html.hb-day .page.page-orderbooks .mod-head {
+    border-color: #e6ecf2
+}
+
+html.hb-dark .page.page-orderbooks .mod-head {
+    border-color: #111114
+}
+
+html.hb-night .page.page-orderbooks .mod-head {
+    background-color: #131625
+}
+
+html.hb-day .page.page-orderbooks .mod-head {
+    background-color: #f2f6fa
+}
+
+html.hb-dark .page.page-orderbooks .mod-head {
+    background-color: #191a1f
+}
+
+.page.page-orderbooks dl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: right;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 30px;
+    font-size: 12px
+}
+
+.page.page-orderbooks dl dt {
+    text-align: left;
+    -webkit-box-flex: 0.4;
+    -ms-flex: 0.4;
+    flex: 0.4;
+    text-transform: lowercase
+}
+
+.page.page-orderbooks dl dt:first-letter {
+    text-transform: uppercase
+}
+
+.page.page-orderbooks dl>* {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.page.page-orderbooks dl.list {
+    background-position: 100%;
+    background-size: 0 0;
+    background-repeat: no-repeat
+}
+
+html.hb-night .page.page-orderbooks dl.list {
+    color: #b0b8db
+}
+
+html.hb-day .page.page-orderbooks dl.list {
+    color: #596a7a
+}
+
+html.hb-dark .page.page-orderbooks dl.list {
+    color: #a7b7c7
+}
+
+html.hb-night .page.page-orderbooks dl.title {
+    color: #61688a
+}
+
+html.hb-day .page.page-orderbooks dl.title {
+    color: #9ca9b5
+}
+
+html.hb-dark .page.page-orderbooks dl.title {
+    color: #697080
+}

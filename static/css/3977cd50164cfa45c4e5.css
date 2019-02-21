@@ -1,0 +1,380 @@
+.dialog-actions:after {
+    display: block;
+    clear: both;
+    content: ""
+}
+
+.dialog {
+    padding: 24px;
+    color: #263241;
+    background-color: #fff;
+    border-radius: 4px
+}
+
+.dialog-title {
+    font-size: 24px
+}
+
+.dialog-title .cap:first-letter {
+    text-transform: uppercase
+}
+
+.dialog-content {
+    margin-top: 30px
+}
+
+.dialog-content .loading {
+    height: 80px
+}
+
+.dialog-content p {
+    margin-bottom: 10px
+}
+
+.dialog-content.noCheckbox {
+    padding: 0;
+    background-color: transparent;
+    border: 0
+}
+
+.dialog-content.content {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #eaedf0;
+    line-height: 20px;
+    max-height: 350px;
+    overflow: auto
+}
+
+.dialog-content.content::-webkit-scrollbar-thumb {
+    background-color: rgba(127,143,164,.4)!important
+}
+
+.dialog-content::-webkit-scrollbar-thumb {
+    background-color: rgba(127,143,164,.4)
+}
+
+.dialog-actions {
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: right
+}
+
+.dialog-actions input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    -webkit-appearance: checkbox;
+    margin-right: 8px
+}
+
+.dialog-actions label {
+    color: #4e5c6e;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    float: left;
+    line-height: 40px
+}
+
+.dialog-actions button {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    background-color: #c3d8f6;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: not-allowed;
+    float: right
+}
+
+.dialog-actions button.checked,.dialog-actions button.submit {
+    background-color: #357ce1;
+    cursor: pointer
+}
+
+.dialog-actions button.checked:hover,.dialog-actions button.submit:hover {
+    background-color: #2f70ca
+}
+
+.dialog-actions button.cancel {
+    margin: 0 8px;
+    background: transparent;
+    border: 1px solid;
+    color: #357ce1;
+    cursor: pointer
+}
+
+html.hb-dark .dialog-actions button.cancel,html.hb-day .dialog-actions button.cancel,html.hb-night .dialog-actions button.cancel {
+    border-color: #357ce1
+}
+
+.dialog-actions button.cancel:hover {
+    color: rgba(53,124,225,.8)
+}
+
+html.hb-dark .dialog-actions button.cancel:hover,html.hb-day .dialog-actions button.cancel:hover,html.hb-night .dialog-actions button.cancel:hover {
+    border-color: #357ce1
+}
+
+.dialog.global {
+    border-radius: 2px;
+    padding: 40px!important
+}
+
+html.hb-night .dialog.global {
+    color: #b0b8db
+}
+
+html.hb-day .dialog.global {
+    color: #596a7a
+}
+
+html.hb-dark .dialog.global {
+    color: #a7b7c7
+}
+
+html.hb-night .dialog.global {
+    background-color: #171b2b
+}
+
+html.hb-day .dialog.global {
+    background-color: #fff
+}
+
+html.hb-dark .dialog.global {
+    background-color: #1f2126
+}
+
+.dialog.global.no-border .dialog-content.content {
+    padding: 0;
+    border: 0
+}
+
+html.hb-night .dialog.global.no-border .dialog-content.content {
+    background-color: #171b2b
+}
+
+html.hb-day .dialog.global.no-border .dialog-content.content {
+    background-color: #fff
+}
+
+html.hb-dark .dialog.global.no-border .dialog-content.content {
+    background-color: #1f2126
+}
+
+.dialog.global .dialog-title {
+    font-size: 20px
+}
+
+html.hb-night .dialog.global .dialog-title {
+    color: #d2d6ec
+}
+
+html.hb-day .dialog.global .dialog-title {
+    color: #1c242c
+}
+
+html.hb-dark .dialog.global .dialog-title {
+    color: #d5def2
+}
+
+.dialog.global .dialog-content.content {
+    padding: 16px;
+    margin-top: 20px;
+    border-radius: 2px
+}
+
+html.hb-night .dialog.global .dialog-content.content {
+    border-color: #383f66
+}
+
+html.hb-day .dialog.global .dialog-content.content {
+    border-color: #cad7e0
+}
+
+html.hb-dark .dialog.global .dialog-content.content {
+    border-color: #3f4254
+}
+
+html.hb-night .dialog.global .dialog-content.content {
+    background-color: rgba(19,22,37,.2)
+}
+
+html.hb-day .dialog.global .dialog-content.content {
+    background-color: rgba(242,246,250,.2)
+}
+
+html.hb-dark .dialog.global .dialog-content.content {
+    background-color: rgba(25,26,31,.2)
+}
+
+html.hb-night .dialog.global .dialog-content.content::-webkit-scrollbar-thumb {
+    background-color: rgba(37,42,68,.5)
+}
+
+html.hb-day .dialog.global .dialog-content.content::-webkit-scrollbar-thumb {
+    background-color: rgba(229,235,245,.5)
+}
+
+html.hb-dark .dialog.global .dialog-content.content::-webkit-scrollbar-thumb {
+    background-color: rgba(52,54,63,.5)
+}
+
+.dialog.global .dialog-actions {
+    margin-top: 16px
+}
+
+.dialog.global .dialog-actions button {
+    margin-top: 24px;
+    background-color: rgba(53,124,225,.7)
+}
+
+.dialog.global .dialog-actions button.checked,.dialog.global .dialog-actions button.submit {
+    background-color: #357ce1;
+    cursor: pointer
+}
+
+.dialog.global .dialog-actions button.checked:hover,.dialog.global .dialog-actions button.submit:hover {
+    background-color: #2f70ca
+}
+
+.dialog.global .dialog-actions button.cancel {
+    border: 0!important;
+    background-color: transparent!important
+}
+
+.dialog.global .dialog-actions button.cancel:hover {
+    color: rgba(53,124,225,.8)
+}
+
+.dialog.global .dialog-actions label {
+    width: 100%;
+    text-align: left;
+    height: 14px;
+    line-height: 14px
+}
+
+html.hb-night .dialog.global .dialog-actions label {
+    color: #b0b8db
+}
+
+html.hb-day .dialog.global .dialog-actions label {
+    color: #596a7a
+}
+
+html.hb-dark .dialog.global .dialog-actions label {
+    color: #a7b7c7
+}
+
+.dialog.global .dialog-actions input {
+    vertical-align: middle
+}
+
+.dialog.global .dialog-actions input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    -webkit-appearance: none;
+    border: 1px solid;
+    border-radius: 3px;
+    outline: none
+}
+
+html.hb-night .dialog.global .dialog-actions input[type=checkbox] {
+    border-color: #2e3753
+}
+
+html.hb-day .dialog.global .dialog-actions input[type=checkbox] {
+    border-color: #dfe2e7
+}
+
+html.hb-dark .dialog.global .dialog-actions input[type=checkbox] {
+    border-color: #2e3753
+}
+
+html.hb-night .dialog.global .dialog-actions input[type=checkbox] {
+    background-color: #131625
+}
+
+html.hb-day .dialog.global .dialog-actions input[type=checkbox] {
+    background-color: #f2f6fa
+}
+
+html.hb-dark .dialog.global .dialog-actions input[type=checkbox] {
+    background-color: #191a1f
+}
+
+.dialog.global .dialog-actions input[type=checkbox].checked {
+    width: 14px;
+    height: 14px;
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMi4wNSAzLjA2MkwuOTMzIDQuMTc2bDIuNjI5IDIuNjI3YS43ODkuNzg5IDAgMCAwIDEuMTE1IDBMOS45MzQgMS41NSA4LjgyLjQzNCA0LjEyIDUuMTMxbC0yLjA3LTIuMDd6IiBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48L3N2Zz4=) no-repeat 50%
+}
+
+html.hb-dark .dialog.global .dialog-actions input[type=checkbox].checked,html.hb-day .dialog.global .dialog-actions input[type=checkbox].checked,html.hb-night .dialog.global .dialog-actions input[type=checkbox].checked {
+    background-color: #357ce1
+}
+
+.v--modal-overlay[data-modal=usip_modal_name] {
+    z-index: 1300
+}
+
+.dialog-usip {
+    width: 500px
+}
+
+.dialog-usip .usip-bg {
+    position: relative;
+    width: 100%;
+    height: 278px;
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/460053d.svg) no-repeat 50%
+}
+
+.dialog-usip .usip-bg i {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 16px;
+    color: #1c242c;
+    cursor: pointer
+}
+
+.dialog-usip .usip-bg i:hover {
+    color: rgba(28,36,44,.8)
+}
+
+.dialog-usip .summary {
+    width: 100%;
+    padding: 16px 30px 40px;
+    font-size: 14px;
+    color: #596a7a;
+    text-align: center
+}
+
+.dialog-usip .summary p {
+    line-height: 24px;
+    text-align: left
+}
+
+.dialog-usip .summary a {
+    width: 157px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #357ce1;
+    color: #fff;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    line-height: 40px;
+    margin-top: 32px
+}
+
+.dialog-usip .summary a:hover {
+    background-color: #2b72d6
+}

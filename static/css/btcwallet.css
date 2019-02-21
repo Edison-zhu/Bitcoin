@@ -1,0 +1,365 @@
+#main{
+    /*background-color: #8bc34a;*/
+    margin: 120px 50px 50px 50px;
+
+}
+.error{
+    color: red;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #666;
+}
+body{
+    margin: 0px;
+}
+ul>li{
+    list-style: none;
+    margin: 0px;
+}
+.bg{
+    background-image: url("/image/bg.jpg");
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1435px;
+    height: 400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.pur-back{
+    width: 100%;
+    height: 64px;
+    text-align: center;
+    background-color: #0a151e;
+}
+.pur-back .pur-center{
+    text-align: center;
+    width: 728px;
+    height: 64px;
+    padding: 14px 0;
+    display: inline-block;
+    position: relative;
+}
+.pur-back .pur-center .pur-text{
+    width: 190px;
+    height: 39px;
+    text-align: left;
+    float: left;
+}
+.pur-back .pur-center .pur-text .pur-title{
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+}
+.pur-back .pur-center .pur-text .pur-reference{
+    width: 190px;
+    color: #54748f;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 8px;
+    float: left;
+}
+.pur-back .pur-center .pur-text .pur-reference .reference-icon{
+    position: relative;
+    margin: 1px 0 0 2px;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    float: left;
+    background-size: 12px 12px;
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/bb2619f.svg) no-repeat 50%;
+}
+.pur-back .pur-center .pur-input{
+    margin-left: 190px;
+    width: 600px;
+    height: 36px;
+    position: relative;
+}
+.pur-back .pur-center .pur-input .arrow_box{
+    z-index: 20;
+    padding: 10px 16px;
+    background: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    color: #596a7a;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+    position: absolute;
+    top: -40px;
+    left: 10%;
+}
+.pur-back .pur-center .pur-input .pur-total{
+    font-weight: 400;
+    font-size: 14px;
+    border: 0;
+    display: inline-block;
+    border-radius: 2px;
+    padding-left: 15px;
+    width: 280px;
+    height: 36px;
+    float: left;
+    color: #1c242c;
+    margin-right: 10px;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+}
+.pur-back .pur-center .pur-input .convert-currency{
+    position: relative;
+    right: 260px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 36px;
+    color: #9ca9b5;
+}
+.pur-back .pur-center .pur-input .select-box{
+    position: relative;
+    z-index: 20;
+    float: left;
+    width: 116px;
+    background: #fff;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+}
+.pur-back .pur-center .pur-input .select-box .select-btn{
+    display: inline-block;
+    width: 116px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+}
+.pur-back .pur-center .pur-input .select-box span.USDT{
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/e87eaa9.svg) no-repeat 10px;
+}
+.pur-back .pur-center .pur-input .select-box .select-btn .btn-icon{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    float: right;
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/8f3c03b.svg) no-repeat 5px 4px;
+}
+.pur-back .pur-center .pur-input .select-box .select-btn span{
+    color: #1c242c;
+    line-height: 36px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: -5px;
+    padding-left: 40px;
+}
+.pur-back .pur-center .pur-input .select-box .currency-list{
+    position: absolute;
+    background-color: #fff;
+    min-width: 116px;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+}
+.pur-back .pur-center .pur-input .select-box span.BTC{
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/04aca1b.svg) no-repeat 10px;
+}
+.pur-back .pur-center .pur-input .select-box .currency-list span{
+    cursor: pointer;
+    text-align: left;
+    padding-left: 40px;
+    line-height: 40px;
+    width: 116px;
+    height: 36px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+.pur-back .pur-center .pur-input .select-box span.ETH{
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/90e8cc8.svg) no-repeat 10px;
+}
+.pur-back .pur-center .pur-input .select-box .currency-list span{
+    cursor: pointer;
+    text-align: left;
+    padding-left: 40px;
+    line-height: 40px;
+    width: 116px;
+    height: 36px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+.pur-back .pur-center .pur-input .select-box span.USDT{
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/e87eaa9.svg) no-repeat 10px;
+}
+.pur-back .pur-center .pur-input .select-box .currency-list span{
+    cursor: pointer;
+    text-align: left;
+    padding-left: 40px;
+    line-height: 40px;
+    width: 116px;
+    height: 36px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+.pur-back .pur-center .pur-input .shortcut{
+    text-align: left;
+    padding-left: 16px;
+    margin-left: 430px;
+    margin-top: -35px;
+    float: left;
+    width: 122px;
+    height: 36px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 36px;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/5a7077a.svg) no-repeat #05c19e 90px 12px;
+    background-size: 18px 9px;
+}
+.trade_block{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(29,50,66,.7);
+    background-color: #0a151e;
+    color: #9eb5ca;
+}
+.trade_block .market_ticker{
+    margin: 0 auto;
+}
+.trade_block .market_ticker li[data-v-10d0f502] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 16.66%;
+    height: 120px;
+    padding: 18px 1.6%;
+    position: relative;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
+}
+.trade_block .market_ticker li a{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.trade_block .market_ticker .symbol_line .change{
+    display: block;
+    float: right;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 2px;
+}
+.trade_block .market_ticker .symbol_line .symbol[data-v-10d0f502] {
+    font-size: 14px;
+    line-height: 14px;
+}
+.trade_block .up{
+    color: #0da88b;
+}
+
+.mock-a, a {
+    color: #357ce1;
+    text-decoration: none;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.trade_block .market_ticker .ticker_box[data-v-10d0f502] {
+    width: 100%;
+    overflow: hidden;
+}
+
+    .trade_block .market_ticker .now[data-v-10d0f502] {
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+.trade_block .market_ticker .now[data-v-10d0f502] {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.feature_wrap[data-v-ba621840] {
+    width: 100%;
+    min-height: 658px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    color: #54748f;
+    line-height: 2em;
+}
+.feature_wrap h2[data-v-ba621840] {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #192544;
+}
+
+.global-color{
+    color: #0abc9c;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.row{
+    display: inline-block;
+    margin-right: 70px;
+}
+.top{
+    vertical-align: top
+}
+a[class=button]{
+    background-color: beige;
+    padding: 2px 10px;
+    border: 1px solid gray;
+}
+button{
+    background-color: beige;
+    border: 1px solid gray;
+}
+
+/*导航-------------------------------------------------------------------------------------------------------*/
+#nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0abc9c;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+#nav li{
+    display: inline-block;
+    margin: 10px 2px;
+}
+#nav ul{
+    padding: 0px;
+}
+#nav a{
+    padding: 10px;
+    font-size: 24px;
+}
+#nav-left{
+    margin-left: 20px;
+}
+#nav-right{
+    margin-right: 20px;
+}

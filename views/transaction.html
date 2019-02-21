@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>币币交易</title>
+    <script src="/js/lib/jquery-3.3.1.min.js"></script>
+    <script src="/js/lib/jquery.url.js"></script>
+    <script src="/js/transaction.js"></script>
+    <link rel="stylesheet" href="/css/btcwallet.css">
+</head>
+<body>
+<%include block/nav.html%>
+
+<div class="bg">
+
+</div>
+<div class="pur-back">
+    <div class="pur-center">
+        <div class="pur-text">
+            <p class="pur-title">闪电交易 一键买币</p>
+            <div class="pur-reference">
+                <span class="reference">参考价</span>
+                <div class="reference-icon"></div>
+                <span class="pur-text">6.79 CNY/USDT</span>
+            </div>
+        </div>
+        <form onsubmit="return!1" action="#" class="pur-input">
+            <div class="arrow_box" style="display:none"></div>
+            <input maxlength="14" type="number" name="total" placeholder="请输入购买总金额" growing-ignore="true" autocomplete="off" class="pur-total">
+            <span class="convert-currency">CNY</span>
+            <div class="select-box">
+                <button class="select-btn">
+                    <span class="USDT">USDT</span>
+                    <i class="btn-icon"></i>
+                </button>
+                <div class="currency-list" style="display: none">
+                    <span class="BTC">BTC</span>
+                    <span class="ETH">ETH</span>
+                    <span class="USDT">USDT</span>
+                </div>
+            </div>
+            <a class="shortcut">一键买币</a>
+        </form>
+    </div>
+</div>
+<div class="feature_wrap">
+    <h2 data-v-ba621840>全球领先的数字资产金融服务商</h2>
+    <p>为全球超过130个国家的数百万用户提供安全、可信赖的数字资产交易及资产管理服务</p>
+</div>
+<div id="main">
+    <h1>BTC/ETH  开始交易</h1>
+    <form id="transaction-send-form" 　>
+        <input type="text" name="to" placeholder="请输入对方收款地址">
+        <label>收款地址</label>
+        <br><br>
+
+        <input type="text" name="amount" placeholder="请输入转账数量">
+        <label>BTC金额</label>
+        <br><br>
+
+        <input type="text" name="password" placeholder="请输入钱包密码">
+        <label>资金密码</label>
+        <br><br>
+
+        <label>付款账户：</label>
+        <select name="walletname" id="transaction-send-address-select">
+        </select>
+        <br>
+
+        <label>可用余额：</label><span id="balance"></span>　BTC
+        <br><br>
+
+        <button type="submit">发送交易</button>
+
+        <div style="position: absolute;left: 30%;bottom:30px;">Copyright © 2016-2018 Create by Edison</div>
+    </form>
+
+</div>
+</body>
+
+
+</html>

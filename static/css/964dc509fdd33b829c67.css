@@ -1,0 +1,671 @@
+.orders dl dd:after,.orders dl dt:after {
+    display: block;
+    clear: both;
+    content: ""
+}
+
+.orders {
+    margin-top: 4px;
+    height: 202px
+}
+
+.orders dl dt {
+    height: 24px
+}
+
+.orders dl dd.no-data {
+    height: 98px
+}
+
+.orders dl dd.no-data dl dt {
+    margin-top: 15px
+}
+
+.orders .order-table {
+    height: 100px;
+    border-bottom: 1px solid;
+    margin-bottom: 8px;
+    overflow: auto
+}
+
+html.hb-night .orders .order-table {
+    border-color: rgba(46,55,83,.4)
+}
+
+html.hb-day .orders .order-table {
+    border-color: rgba(223,226,231,.4)
+}
+
+html.hb-dark .orders .order-table {
+    border-color: rgba(46,55,83,.4)
+}
+
+.orders .order-table.no-data-table {
+    border-bottom: none
+}
+
+.orders .order-table::-webkit-scrollbar {
+    display: none
+}
+
+.orders .pagination-button {
+    float: right;
+    margin-right: 16px
+}
+
+.orders .cancel-all {
+    color: #357ce1
+}
+
+.orders .cancel-all:hover {
+    color: #6199e8
+}
+
+.orders .cancel-all:disabled {
+    color: #61688a;
+    cursor: not-allowed
+}
+
+.orders .cancel-all:disabled:hover {
+    color: #61688a
+}
+
+.orders .hide-btn label {
+    cursor: pointer;
+    color: #4e5c6e
+}
+
+html.hb-night .orders .hide-btn label span {
+    color: #7085ac
+}
+
+html.hb-day .orders .hide-btn label span {
+    color: #4e5c6e
+}
+
+html.hb-dark .orders .hide-btn label span {
+    color: #7085ac
+}
+
+.orders .hide-btn input {
+    vertical-align: middle
+}
+
+.orders .hide-btn input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    -webkit-appearance: none;
+    border: 1px solid;
+    border-radius: 3px;
+    outline: none
+}
+
+html.hb-night .orders .hide-btn input[type=checkbox] {
+    border-color: #2e3753
+}
+
+html.hb-day .orders .hide-btn input[type=checkbox] {
+    border-color: #dfe2e7
+}
+
+html.hb-dark .orders .hide-btn input[type=checkbox] {
+    border-color: #2e3753
+}
+
+html.hb-night .orders .hide-btn input[type=checkbox] {
+    background-color: #1a243b
+}
+
+html.hb-day .orders .hide-btn input[type=checkbox] {
+    background-color: #fff
+}
+
+html.hb-dark .orders .hide-btn input[type=checkbox] {
+    background-color: #1a243b
+}
+
+.orders .hide-btn input[type=checkbox].checked {
+    width: 16px;
+    height: 16px;
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMi4wNSAzLjA2MkwuOTMzIDQuMTc2bDIuNjI5IDIuNjI3YS43ODkuNzg5IDAgMCAwIDEuMTE1IDBMOS45MzQgMS41NSA4LjgyLjQzNCA0LjEyIDUuMTMxbC0yLjA3LTIuMDd6IiBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48L3N2Zz4=) no-repeat 50%
+}
+
+html.hb-dark .orders .hide-btn input[type=checkbox].checked,html.hb-day .orders .hide-btn input[type=checkbox].checked,html.hb-night .orders .hide-btn input[type=checkbox].checked {
+    background-color: #357ce1
+}
+
+.orders .hide-btn span {
+    vertical-align: middle
+}
+
+@media screen and (max-width: 1350px) {
+    .orders .order-container span.amount-executed {
+        display:none
+    }
+}
+
+.orders .order-container span.direct {
+    width: 8%;
+    text-transform: lowercase
+}
+
+.orders .order-container span.direct:first-letter {
+    text-transform: uppercase
+}
+
+.orders .order-container span.type {
+    width: 11%;
+    text-transform: lowercase
+}
+
+.orders .order-container span.type:first-letter {
+    text-transform: uppercase
+}
+
+.orders .order-container span.amount,.orders .order-container span.amount-executed,.orders .order-container span.amount-total,.orders .order-container span.amount-unexecuted,.orders .order-container span.price {
+    width: 13%
+}
+
+.orders .order-container span.action {
+    width: 6%;
+    float: right
+}
+
+.orders .order-container span.action .cancelling {
+    color: #61688a;
+    cursor: not-allowed
+}
+
+.orders .order-container span.action .cancelling:hover {
+    color: #61688a
+}
+
+@media screen and (max-width: 1350px) {
+    .orders .order-container span.direct,.orders .order-container span.time {
+        width:8%
+    }
+
+    .orders .order-container span.type {
+        width: 11%
+    }
+
+    .orders .order-container span.amount,.orders .order-container span.amount-executed,.orders .order-container span.amount-total,.orders .order-container span.amount-unexecuted,.orders .order-container span.price {
+        width: 16.5%
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .orders .order-history span.amount-average {
+        display:none
+    }
+}
+
+.orders .order-history span.time {
+    width: 8%
+}
+
+.orders .order-history span.direct {
+    width: 7%;
+    text-transform: lowercase
+}
+
+.orders .order-history span.direct:first-letter {
+    text-transform: uppercase
+}
+
+.orders .order-history span.type {
+    width: 11%;
+    text-transform: lowercase
+}
+
+.orders .order-history span.type:first-letter {
+    text-transform: uppercase
+}
+
+.orders .order-history span.amount,.orders .order-history span.amount-average,.orders .order-history span.amount-executed,.orders .order-history span.amount-unexecuted,.orders .order-history span.price {
+    width: 13%
+}
+
+@media screen and (max-width: 1350px) {
+    .orders .order-history span.direct {
+        width:8%
+    }
+
+    .orders .order-history span.type {
+        width: 11%
+    }
+
+    .orders .order-history span.amount,.orders .order-history span.amount-average,.orders .order-history span.amount-executed,.orders .order-history span.amount-unexecuted,.orders .order-history span.price {
+        width: 15.5%
+    }
+}
+
+.orders .order-history span.state {
+    width: 14%
+}
+
+.orders .order-history span.action {
+    width: 8%;
+    float: right
+}
+
+@media screen and (max-width: 1350px) {
+    .orders .order-history span.state {
+        width:18%
+    }
+
+    .orders .order-history span.action {
+        width: 8%
+    }
+}
+
+.orders dl dd,.orders dl dt {
+    font-size: 12px;
+    padding: 0 20px
+}
+
+@media screen and (max-width: 1400px) {
+    .orders dl dd,.orders dl dt {
+        padding:0 6px
+    }
+}
+
+.orders dl dt {
+    line-height: 24px
+}
+
+html.hb-night .orders dl dt {
+    color: #7085ac
+}
+
+html.hb-day .orders dl dt {
+    color: #7f8fa4
+}
+
+html.hb-dark .orders dl dt {
+    color: #7085ac
+}
+
+.orders dl dd {
+    line-height: 32px
+}
+
+@media screen and (max-width: 1536px) {
+    .orders dl dd span.time {
+        line-height:14px
+    }
+}
+
+html.hb-night .orders dl dd.list:hover {
+    background-color: rgba(46,55,83,.4)
+}
+
+html.hb-day .orders dl dd.list:hover {
+    background-color: #f8f9fa
+}
+
+html.hb-dark .orders dl dd.list:hover {
+    background-color: rgba(46,55,83,.4)
+}
+
+.orders dl dd.list-detail dl dd,.orders dl dd.list-detail dl dt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.orders dl dd.list-detail dl dd dt,.orders dl dd.list-detail dl dt dt {
+    height: 24px;
+    line-height: 24px
+}
+
+.orders dl dd.list-detail dl dd span,.orders dl dd.list-detail dl dt span {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.orders dl dd.list-detail dl dd span.time,.orders dl dd.list-detail dl dt span.time {
+    line-height: 32px
+}
+
+.orders dl dd.list-detail dl dd .fee,.orders dl dd.list-detail dl dt .fee {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-item-align: center;
+    align-self: center
+}
+
+.orders dl dd.list-detail dl dd .fee.points.fees,.orders dl dd.list-detail dl dt .fee.points.fees {
+    line-height: 1
+}
+
+.orders dl dd.no-data {
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center
+}
+
+html.hb-night .orders dl dd.no-data:hover {
+    background-color: #1a243b
+}
+
+html.hb-day .orders dl dd.no-data:hover {
+    background-color: #fff
+}
+
+html.hb-dark .orders dl dd.no-data:hover {
+    background-color: #1a243b
+}
+
+.orders dl dd.no-data dl {
+    width: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.orders dl dd.no-data dl>* {
+    margin: 0
+}
+
+.orders dl dd.no-data dl.icon-no-order {
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/aa2ec86.svg) no-repeat center 4px
+}
+
+.orders dl dd.no-data dl dt {
+    margin-top: 47px;
+    height: 18px;
+    font-size: 14px
+}
+
+html.hb-night .orders dl dd.no-data dl dt {
+    color: #fff
+}
+
+html.hb-day .orders dl dd.no-data dl dt {
+    color: #263241
+}
+
+html.hb-dark .orders dl dd.no-data dl dt {
+    color: #fff
+}
+
+.orders dl dd.no-data dl dd {
+    line-height: 16px;
+    font-size: 12px
+}
+
+html.hb-night .orders dl dd.no-data dl dd {
+    color: #7085ac
+}
+
+html.hb-day .orders dl dd.no-data dl dd {
+    color: #9aa5b5
+}
+
+html.hb-dark .orders dl dd.no-data dl dd {
+    color: #7085ac
+}
+
+.orders dl span {
+    display: block;
+    float: left;
+    white-space: nowrap;
+    text-align: right
+}
+
+.orders dl span.time {
+    text-align: left;
+    width: 8%
+}
+
+@media screen and (max-width: 1536px) {
+    .orders dl span.time {
+        white-space:pre-wrap
+    }
+}
+
+.orders dl.pager {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    width: calc(100% - 60px)
+}
+
+@media screen and (max-width: 1440px) {
+    .orders dl.pager {
+        width:calc(100% - 40px)
+    }
+}
+
+.orders dl.pager span {
+    margin-left: 30px
+}
+
+.orders dl.pager span.disabled {
+    cursor: not-allowed
+}
+
+.orders .order-table dl dd .icon-arrow-down-blue {
+    width: 16px;
+    height: 16px;
+    margin-top: 5px
+}
+
+.orders .order-table dl dd.cur .icon-arrow-down-blue {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.orders .order-detail {
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    height: 0;
+    overflow: hidden;
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    -ms-flex-negative: unset;
+    flex-shrink: unset
+}
+
+html.hb-night .orders .order-detail {
+    background-color: #151d31
+}
+
+html.hb-day .orders .order-detail {
+    background-color: #f8f9fa
+}
+
+html.hb-dark .orders .order-detail {
+    background-color: #151d31
+}
+
+html.hb-night .orders .order-detail {
+    color: #7085ac
+}
+
+html.hb-day .orders .order-detail {
+    color: #7f8fa4
+}
+
+html.hb-dark .orders .order-detail {
+    color: #7085ac
+}
+
+.orders .order-detail.show-detail {
+    height: auto
+}
+
+.orders .order-detail>dt,.orders .order-detail dd {
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.orders .order-detail dd.loading {
+    height: 50px
+}
+
+.hb-dark .orders dl dd.no-data dl.icon-no-order,.hb-night .orders dl dd.no-data dl.icon-no-order {
+    background: url(https://file.huobiasia.vip/global/zh-cn/static/img/406dc17.svg) no-repeat center 3px
+}
+
+.page.page-exchange {
+    position: relative;
+    height: calc(100vh - 48px);
+    min-height: 600px;
+    padding: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch
+}
+
+html.hb-night .page.page-exchange {
+    background-color: #171c2b
+}
+
+html.hb-day .page.page-exchange {
+    background-color: #e1e6e9
+}
+
+html.hb-dark .page.page-exchange {
+    background-color: #171c2b
+}
+
+.page.page-exchange>dl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.page.page-exchange>dl>dt {
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.page.page-exchange>.l,.page.page-exchange>dl>dt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1
+}
+
+.page.page-exchange>.l {
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    flex-direction: column;
+    margin: 4px;
+    width: 0
+}
+
+.page.page-exchange>.l,.page.page-exchange>.r {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column
+}
+
+.page.page-exchange>.r {
+    width: 636px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column
+}
+
+@media screen and (max-width: 1440px) {
+    .page.page-exchange>.r {
+        width:564px
+    }
+}
+
+.page.page-exchange>.r>dt {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative
+}
+
+.page.page-exchange>.r>dt .mod {
+    margin-right: 4px;
+    height: 100%
+}
+
+.page.page-exchange>.r>dd {
+    margin-top: 4px;
+    margin-right: 4px
+}
+
+.icon-arrow-down-blue {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    position: relative;
+    bottom: 3px;
+    background-image: url(https://file.huobiasia.vip/global/zh-cn/static/img/a452d68.svg);
+    background-repeat: no-repeat;
+    background-position: 50%
+}
+
+html.hb-night .icon-arrow-down-blue {
+    background-color: #2e3852
+}
+
+html.hb-day .icon-arrow-down-blue {
+    background-color: #e8f0fb
+}
+
+html.hb-dark .icon-arrow-down-blue {
+    background-color: #2e3852
+}
+
+.hb-night .page.page-exchange .icon-arrow-down-blue {
+    background-image: url(https://file.huobiasia.vip/global/zh-cn/static/img/13d6a67.svg)
+}

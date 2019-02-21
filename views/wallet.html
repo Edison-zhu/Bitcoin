@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>比特币钱包</title>
+    <script src="/js/lib/jquery-3.3.1.min.js"></script>
+    <script src="/js/lib/jquery.url.js"></script>
+    <script src="/js/wallet.js"></script>
+    <link rel="stylesheet" href="/css/btcwallet.css">
+</head>
+<body>
+<%include block/nav.html%>
+<div id="main">
+    <h1>账户列表</h1>
+    <form id="wallet-create-form">
+        <button type="submit">创建账户</button>
+        <input type="text" name="walletname" placeholder="请输入钱包名称">
+        <input type="text" name="password" placeholder="请输入密码">
+    </form>
+
+    <form id="wallet-mnemnic-import-form">
+        <button type="submit">助记词导入钱包</button>
+        <input type="text" name="walletname" placeholder="请输入钱包名称">
+        <input type="text" name="password" placeholder="请输入钱包密码">
+        <br><br>
+        <textarea rows="3" cols="50" name="mnemnic" placeholder="请输入助记词"></textarea>
+
+    </form>
+    <table>
+        <tbody id="wallet-list-table"></tbody>
+    </table>
+</div>
+</body>
+</html>
